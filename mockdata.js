@@ -4,6 +4,89 @@ function getProducts(){
 function getInvoices(){
   return invoices;
 }
+function getWeather(){
+  return weather;
+}
+let weather = [
+  {
+    "Month": "Sep2022",
+    "High": 83,
+    "Low": 63,
+    "Avg": 76
+  },
+  {
+    "Month": "Oct2022",
+    "High": 73,
+    "Low": 50,
+    "Avg": 54
+  },
+  {
+    "Month": "Nov2022",
+    "High": 63,
+    "Low": 40,
+    "Avg": 48
+  },
+  {
+    "Month": "Dec2022",
+    "High": 55,
+    "Low": 34,
+    "Avg": 41
+  },
+  {
+    "Month": "Jan2023",
+    "High": 52,
+    "Low": 32,
+    "Avg": 39
+  },
+  {
+    "Month": "Feb2023",
+    "High": 56,
+    "Low": 34,
+    "Avg": 54
+  },
+  {
+    "Month": "Mar2023",
+    "High": 63,
+    "Low": 40,
+    "Avg": 45
+  },
+  {
+    "Month": "Apr2023",
+    "High": 73,
+    "Low": 49,
+    "Avg": 61
+  },
+  {
+    "Month": "May2023",
+    "High": 80,
+    "Low": 58,
+    "Avg": 73
+  },
+  {
+    "Month": "Jun2023",
+    "High": 87,
+    "Low": 66,
+    "Avg": 69
+  },
+  {
+    "Month": "Jul2023",
+    "High": 91,
+    "Low": 70,
+    "Avg": 79
+  },
+  {
+    "Month": "Aug2023",
+    "High": 89,
+    "Low": 69,
+    "Avg": 88
+  },
+  {
+    "Month": "Sep2023",
+    "High": 82,
+    "Low": 60,
+    "Avg": 72
+  }
+ ];
 let products = [
     {
       "ID": 17,
@@ -98107,4 +98190,4 @@ let products = [
     }
    ];
 
-   module.exports = { getProducts, getInvoices };
+   module.exports = { getProducts, getInvoices, getWeather };
