@@ -8,6 +8,10 @@ app.get('/products', (req, res) => {
   return res.send(products[Math.floor(Math.random()*products.length)]);
 }); 
 
+app.get('/invoices', (req, res) => {
+  return res.send(data.getInvoices());
+}); 
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
 })
