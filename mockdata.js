@@ -74,7 +74,7 @@ let weather = [
 
    let invoices = [
     {
-      "invoice_number": 80599,
+      "bill_number": 80599,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": true,
@@ -94,7 +94,7 @@ let weather = [
       "payment_method": "credit card"
     },
     {
-      "invoice_number": 81516,
+      "bill_number": 81516,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -114,7 +114,7 @@ let weather = [
       "payment_method": "credit card"
     },
     {
-      "invoice_number": 82450,
+      "bill_number": 82450,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -134,7 +134,7 @@ let weather = [
       "payment_method": "bank transfer"
     },
     {
-      "invoice_number": 83258,
+      "bill_number": 83258,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -154,7 +154,7 @@ let weather = [
       "payment_method": "credit card"
     },
     {
-      "invoice_number": 84342,
+      "bill_number": 84342,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": true,
@@ -174,7 +174,7 @@ let weather = [
       "payment_method": "bank transfer"
     },
     {
-      "invoice_number": 85460,
+      "bill_number": 85460,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": true,
@@ -194,7 +194,7 @@ let weather = [
       "payment_method": "credit card"
     },
     {
-      "invoice_number": 86564,
+      "bill_number": 86564,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -214,7 +214,7 @@ let weather = [
       "payment_method": "bank transfer"
     },
     {
-      "invoice_number": 87567,
+      "bill_number": 87567,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": true,
@@ -234,7 +234,7 @@ let weather = [
       "payment_method": "bank transfer"
     },
     {
-      "invoice_number": 88758,
+      "bill_number": 88758,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -254,7 +254,7 @@ let weather = [
       "payment_method": "bank transfer"
     },
     {
-      "invoice_number": 89826,
+      "bill_number": 89826,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -274,7 +274,7 @@ let weather = [
       "payment_method": "credit card"
     },
     {
-      "invoice_number": 90908,
+      "bill_number": 90908,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": true,
@@ -294,7 +294,7 @@ let weather = [
       "payment_method": "bank transfer"
     },
     {
-      "invoice_number": 92058,
+      "bill_number": 92058,
       "customer_id": 7133,
       "payment_status": "paid",
       "late_payment": false,
@@ -314,7 +314,7 @@ let weather = [
       "payment_method": "credit card"
     },
     {
-      "invoice_number": 93093,
+      "bill_number": 93093,
       "customer_id": 7133,
       "payment_status": "unpaid",
       "late_payment": false,
