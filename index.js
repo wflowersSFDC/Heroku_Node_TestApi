@@ -12,7 +12,7 @@ app.get('/weather', (req, res) => {
 }); 
 
 app.get('/meetings', (req, res) => {
-  return 'NOTES!!';
+  return res.send('NOTES!!');
 })
 
 app.listen(port, () => {
