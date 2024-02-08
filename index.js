@@ -11,6 +11,10 @@ app.get('/weather', (req, res) => {
   return res.send(data.getWeather());
 }); 
 
+app.get('/meetings', (req, res) => {
+  return 'NOTES!!';
+})
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
 })
