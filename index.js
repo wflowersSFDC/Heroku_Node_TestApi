@@ -11,7 +11,7 @@ app.get('/weather', (req, res) => {
   return res.send(data.getWeather());
 }); 
 
-app.get('/meetings', (req, res) => {
+app.get('/minutes', (req, res) => {
   return res.send(data.getMinutes());
 })
 
