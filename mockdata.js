@@ -60,8 +60,8 @@ let weather = [
   },
   {
     Month: "Jul2023",
-    "Historical Avg": 79,
-    "Actual Avg": 83,
+    "Historical Avg": 84,
+    "Actual Avg": 98,
   },
   {
     Month: "Aug2023",
